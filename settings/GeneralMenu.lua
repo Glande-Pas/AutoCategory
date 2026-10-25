@@ -41,6 +41,14 @@ AC_UI.GeneralMenu = {
                 AutoCategory.ResetCollapse(AutoCategory.saved)
             end,
         },
+        -- Show "AC: Get itemId" in item context menus
+        {
+            type = "checkbox",
+            name = SI_AC_MENU_GS_CHECKBOX_SHOW_ITEM_CONTEXT_MENU,
+            tooltip = SI_AC_MENU_GS_CHECKBOX_SHOW_ITEM_CONTEXT_MENU_TOOLTIP,
+            getFunc = function() return AutoCategory.saved.general["SHOW_ITEM_CONTEXT_MENU"] end,
+            setFunc = function(value) AutoCategory.saved.general["SHOW_ITEM_CONTEXT_MENU"] = value end,
+        },
         AC_UI.divider(),
         -- Show category collapse icon
         {

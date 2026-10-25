@@ -649,6 +649,7 @@ local function setupContextMenu()
 		sysd("[AC] "..tostring(name).."   itemId = "..tostring(itemId))
 	end
 	local function AC_AddMenuItem(rowControl, slotActions)
+		if AutoCat.acctSaved.general["SHOW_ITEM_CONTEXT_MENU"] == false then return end
 		local bagId, slotIndex = ZO_Inventory_GetBagAndIndex(rowControl)
 		AddCustomMenuItem("AC: Get itemId", function() AC_GetItem(rowControl) end, MENU_ADD_OPTION_LABEL)
         if AutoCat.displayItem then

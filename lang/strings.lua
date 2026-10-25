@@ -151,6 +151,8 @@ AutoCategory_localization_strings["en"] = {
     SI_AC_MENU_GS_CHECKBOX_SAVE_CATEGORY_COLLAPSE_STATUS_TOOLTIP = "Will keep the categories collapsed/expanded as they are after quit/log out.",
 	SI_AC_MENU_GS_CHECKBOX_SHOW_CATEGORY_SET_TITLE = "Show 'Set(name)' for autosets",
 	SI_AC_MENU_GS_CHECKBOX_SHOW_CATEGORY_SET_TITLE_TOOLTIP = "Show 'Set(name)' instead of 'name' in inventory for autosets",
+	SI_AC_MENU_GS_CHECKBOX_SHOW_ITEM_CONTEXT_MENU = "Show 'AC: Get itemId' in item menus",
+	SI_AC_MENU_GS_CHECKBOX_SHOW_ITEM_CONTEXT_MENU_TOOLTIP = "Adds 'AC: Get itemId' to the right-click menu of items, to look up item ids for isitemid() rules.",
 
     -- Gamepad Settings strings
     SI_AC_MENU_SUBMENU_GAMEPAD_SETTING = "|c0066FF[Gamepad Settings]|r |c65000b(Gamepad-only)|r",
